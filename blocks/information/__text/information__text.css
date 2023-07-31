@@ -1,0 +1,14 @@
+.information__text {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 600;
+  color: #e3e8ee;
+}
+
+.information__text:last-child {
+  margin: 0;
+}

@@ -1,6 +1,9 @@
 .news__menu-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
   height: 271px;
-  background-color: blue;
+  row-gap: 20px;
 }

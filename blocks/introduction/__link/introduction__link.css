@@ -1,0 +1,9 @@
+.introduction__link{
+    text-align: center;
+    display: block;
+    padding: 0;
+    width: 100%;
+    font-size: 17px;
+    line-height: 30px;
+    color: #ff8400;
+}

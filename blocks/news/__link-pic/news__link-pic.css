@@ -1,6 +1,10 @@
-.news__link-pic{
-/* background: url(../../../images/Layer\ 72.png) no-repeat; */
-height: 112px;
-margin: 0;
-padding: 0;
+.news__link-pic {
+  background: url(../../../images/Layer\ 72.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 112px;
+  width: 253px;
+  margin: 0;
+  padding: 0;
 }
