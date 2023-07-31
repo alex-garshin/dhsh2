@@ -1,0 +1,12 @@
+.description__slogan {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  max-width: 795px;
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #3b3c56;
+}

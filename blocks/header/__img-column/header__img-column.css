@@ -1,0 +1,5 @@
+.header__img-column {
+    row-gap: 20px;
+    display: flex;
+    flex-direction: column;
+}

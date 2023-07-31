@@ -1,0 +1,11 @@
+.header__menu-link {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  list-style-type: none;
+  color: #e3e8ee;
+  letter-spacing: 1.4px;
+}

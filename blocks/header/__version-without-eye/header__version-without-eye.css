@@ -1,0 +1,10 @@
+.header__version-without-eye{
+    margin: 0;
+    padding: 0;
+    max-width: 110px;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #e3e8ee;
+}

@@ -1,0 +1,45 @@
+/*normalize*/
+@import url(../vendor/normalize.css);
+
+/* fonts */
+@import url(../vendor/fonts.css);
+
+/*body*/
+@import url(../blocks/body/body.css);
+
+/* header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__line/header__line.css);
+@import url(../blocks/header/__content/header__content.css);
+@import url(../blocks/header/__sub/header__sub.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-link/header__menu-link.css);
+@import url(../blocks/header/__menu-links/header__menu-links.css);
+@import url(../blocks/header/__lupa/header__lupa.css);
+@import url(../blocks/header/__eye-img/header__eye-img.css);
+@import url(../blocks/header/__logo-img/header__logo-img.css);
+@import url(../blocks/header/__version-without-eye/header__version-without-eye.css);
+@import url(../blocks/header/__eyes/header__eyes.css);
+@import url(../blocks/header/__img-grid/header__img-grid.css);
+@import url(../blocks/header/__img-grid/__img-item/header__img-item.css);
+@import url(../blocks/header/__content-column/header__content-column.css);
+@import url(../blocks/header/__img-column/header__img-column.css);
+
+/* description */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__slogan/description__slogan.css);
+@import url(../blocks/description/__list/description__list.css);
+@import url(../blocks/description/__list-point/description__list-point.css);
+@import url(../blocks/description/__list-age/description__list-age.css);
+@import url(../blocks/description/__list-child/description__list-child.css);
+@import url(../blocks/description/__list-possibility/description__list-possibility.css);
+@import url(../blocks/description/__list-rectangle/description__list-rectangle.css);
+@import url(../blocks/description/__list-detailed/description__list-detailed.css);
+
+/* news */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__sub/news__sub.css);
+@import url(../blocks/news/__menu-link/news__menu-link.css);
+@import url(../blocks/news/__menu-links/news__menu-links.css);
+@import url(../blocks/news/__link-pic/news__link-pic.css);

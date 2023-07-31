@@ -1,0 +1,8 @@
+.header__img-grid {
+  display: flex;
+  margin-top: 20px;
+  width: auto;
+  gap: 20px;
+  max-width: 1262px;
+  width: 100%;
+}
