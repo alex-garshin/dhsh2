@@ -1,0 +1,5 @@
+.footer__pic-slider{
+    max-height: 155px;
+    max-width: 220px;
+    object-fit: cover;
+}

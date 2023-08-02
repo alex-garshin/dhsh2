@@ -9,3 +9,7 @@
   color: #e3e8ee;
   letter-spacing: 1.4px;
 }
+
+.header__menu-link:hover{
+  font-weight: 600;
+}

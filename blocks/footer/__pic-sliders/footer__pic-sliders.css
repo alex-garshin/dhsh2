@@ -1,0 +1,6 @@
+.footer__pic-sliders{
+    display: flex;
+    gap: 20px;
+    margin-left: -177px;
+    overflow: hidden;
+}

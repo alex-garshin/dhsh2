@@ -1,0 +1,9 @@
+.useful__conteiner{
+    display: flex;
+    gap: 102px;
+    margin-bottom: 40px;
+}
+
+.useful__conteiner:last-child{
+    margin-bottom: 0;
+}

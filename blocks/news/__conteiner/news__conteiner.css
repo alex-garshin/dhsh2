@@ -1,3 +1,7 @@
-.news__conteiner{
-    width: 252px;
+.news__conteiner {
+  width: 252px;
+}
+
+.news__conteiner:hover {
+    box-shadow: 1px 3px 20px -19px #000000;
 }

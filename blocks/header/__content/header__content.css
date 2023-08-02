@@ -1,5 +1,7 @@
 .header__content {
   display: flex;
-  margin: 25px 0 25px 100px;
+  justify-content: center;
+  margin: 25px auto 25px;
   gap: 20px;
+  max-width: 1400px;
 }

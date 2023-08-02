@@ -2,3 +2,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+
+.news__menu-link:hover{
+  border: 1px;
+}

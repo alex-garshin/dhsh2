@@ -1,0 +1,8 @@
+.footer__text-link {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: #e3e8ee;
+  font-size: 13px;
+}

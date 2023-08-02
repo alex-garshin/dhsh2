@@ -1,0 +1,11 @@
+.services__link{
+    padding: 0;
+    width: 100%;
+    font-size: 14px;
+    line-height: 21px;
+    color: #e3e8ee;
+}
+
+.services__link:hover{
+    color: #ff8400;
+}
