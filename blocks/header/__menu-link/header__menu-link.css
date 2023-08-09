@@ -14,8 +14,8 @@
   font-weight: 600;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .header__menu-link {
     margin-left: 20px;
   }
-}
+} */

@@ -1,8 +1,14 @@
-.header__lupa{
-    width: 25px;
-    height: 25px;
-    margin-top: 14px;
-    margin-right: 120px;
+.header__lupa {
+  background-color: #052b58;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../../../images/lupa.png);
+  object-fit: cover;
+  width: 25px;
+  height: 25px;
+  border: 0px;
+  margin-top: 14px;
+  margin-right: 120px;
 }
 
 @media (max-width: 805px) {
