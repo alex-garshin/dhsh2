@@ -1,6 +1,13 @@
 .header__logo-img {
   display: block;
   margin: 0 auto;
-  width: 143px;
+  width: 163px;
   height: 135px;
+}
+
+@media (max-width: 768px) {
+  .header__logo-img {
+    width: 143px;
+    height: 135px;
+  }
 }

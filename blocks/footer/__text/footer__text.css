@@ -3,3 +3,9 @@
     justify-content: space-between;
     padding: 24px 100px;
 }
+
+@media (max-width: 768px) {
+    .footer__text{
+        padding: 24px 15px;
+    }
+}

@@ -4,3 +4,11 @@
     margin-top: 14px;
     margin-right: 120px;
 }
+
+@media (max-width: 805px) {
+    .header__lupa{
+      justify-content: space-between;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+  }

@@ -5,3 +5,15 @@
   max-width: 1400px;
   
 }
+
+@media (max-width: 950px) {
+  .footer__menu {
+    height: 55px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__menu {
+    max-width: 320px;
+  }
+}

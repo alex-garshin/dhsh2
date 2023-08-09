@@ -2,3 +2,9 @@
   max-width: 690px;
   width: 100%;
 }
+
+@media (max-width: 360px) {
+  .services__conteiner {
+    max-width: 320px;
+  }
+}

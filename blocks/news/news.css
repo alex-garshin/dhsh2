@@ -3,3 +3,9 @@
   padding: 50px 98px 37px;
   background-color: #fff;
 }
+
+@media (max-width: 768px) {
+  .news {
+    padding: 50px 20px 37px;
+  }
+}

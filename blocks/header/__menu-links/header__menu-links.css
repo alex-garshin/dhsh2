@@ -7,3 +7,10 @@
   gap: 20px;
   /* justify-content: flex-start; */
 }
+
+@media (max-width: 810px) {
+  .header__menu-links{
+    display: none;
+    height: 20px;
+  }
+}

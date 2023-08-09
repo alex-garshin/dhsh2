@@ -1,0 +1,19 @@
+.header__menu-burger {
+  background-color: #052b58;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../../../images/menu.png);
+  object-fit: cover;
+  height: 30px;
+  width: 30px;
+  border: 0px;
+  display: none;
+}
+
+@media (max-width: 810px) {
+  .header__menu-burger {
+    margin-top: 12px;
+    margin-left: 20px;
+    display: block;
+  }
+}

@@ -2,3 +2,10 @@
   padding: 50px 98px 50px;
   background-color: #0f4f8f;
 }
+
+@media (max-width: 768px) {
+  .services {
+    padding: 50px 10px 50px;
+    flex-direction: column;
+  }
+}

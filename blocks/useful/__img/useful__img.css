@@ -1,3 +1,9 @@
 .useful__img{
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    .useful__img {
+      position: relative;
+    }
+  }

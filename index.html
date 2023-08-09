@@ -6,58 +6,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ДХШ</title>
   <link rel="stylesheet" href="pages/index.css" />
+  <link rel="stylesheet" href="./slider/itc-slider.css">
 </head>
 
 <body class="body">
   <header class="header">
     <div class="header__content">
       <div class="header__content-column">
-        <a href="#"><div class="header__logo">
-          <img src="images/DHSH.png" alt="логотип" class="header__logo-img">
-        </div>
-      </a>
+        <a href="#">
+          <div class="header__logo">
+            <img src="images/DHSH.png" alt="логотип" class="header__logo-img">
+          </div>
+        </a>
         <div class="header__eyes">
           <img src="./images/eye.png" alt="поиск" class="header__eye-img" />
           <p class="header__version-without-eye">Версия для слабовидящих</p>
         </div>
       </div>
-      <div class="header__content-column">
+      <div class="header__content-column header__overflow">
         <h1 class="header__sub">
           Департамент культуры администрации города Нижнего Новгорода <br>
           муниципальное бюджетное учреждение дополнительного образования
           «Детская художественная школа №2»
         </h1>
         <div class="header__img-grid">
-          <div class="header__img-column">
-            <img src="images/Layer 34.png" alt="картина" class="header__img-item">
+          <div class="header__img-column header__img-column_wid">
+            <img src="images/Layer 34.png" alt="картина" class="header__img-item header__img-item_big">
+          </div>
+          <div class="header__img-column header__img-column_wid">
+            <img src="images/Layer 41.png" alt="картина" class="header__img-item header__img-item_small">
+            <img src="images/Layer 35.png" alt="картина" class="header__img-item header__img-item_small">
           </div>
           <div class="header__img-column">
-            <img src="images/Layer 41.png" alt="картина" class="header__img-item">
-            <img src="images/Layer 35.png" alt="картина" class="header__img-item">
+            <img src="images/Layer 42.png" alt="картина" class="header__img-item header__img-item_big header__img-item_big-wid1">
           </div>
-          <div class="header__img-column">
-            <img src="images/Layer 42.png" alt="картина" class="header__img-item">
+          <div class="header__img-column header__img-column_wid">
+            <img src="images/Layer 39.png" alt="картина" class="header__img-item header__img-item_small">
+            <img src="images/Layer 43.png" alt="картина" class="header__img-item header__img-item_small">
           </div>
-          <div class="header__img-column">
-            <img src="images/Layer 39.png" alt="картина" class="header__img-item">
-            <img src="images/Layer 43.png" alt="картина" class="header__img-item">
+          <div class="header__img-column header__img-column_wid">
+            <img src="images/Layer 38.png" alt="картина" class="header__img-item header__img-item_big ">
           </div>
-          <div class="header__img-column">
-            <img src="images/Layer 38.png" alt="картина" class="header__img-item">
-          </div>
-          <div class="header__img-column">
-            <img src="images/Layer 45.png" alt="картина" class="header__img-item">
-            <img src="images/Layer 40.png" alt="картина" class="header__img-item">
+          <div class="header__img-column header__img-column_wid">
+            <img src="images/Layer 45.png" alt="картина" class="header__img-item header__img-item_small">
+            <img src="images/Layer 40.png" alt="картина" class="header__img-item header__img-item_small">
           </div>
           <div>
-            <img src="images/Layer 46.png" alt="картина" class="header__img-item">
+            <img src="images/Layer 46.png" alt="картина" class="header__img-item header__img-item_big header__img-item_big-wid2">
           </div>
         </div>
       </div>
     </div>
     <div class="header__menu">
+      <button type="button" class="header__menu-burger"></button>
       <ul class="header__menu-links">
-        <li class="header__menu-brif">
+        <li>
           <a href="#" class="header__menu-link">Сведения об образовательном учрежеднии</a>
         </li>
         <li><a href="#" class="header__menu-link">Прием в школу</a></li>
@@ -97,11 +100,11 @@
             поступления<br>
             в 1 класс по дополнительной предпрофессиональной программе в области<br>
             изобразительного искусства <b>«Акварельная живопись»:</b></p>
-            <a href="#" class="description__text-decor">
-              <div class="description__list-rectangle description__list-rectangle_orange_them">
-                <p class="description__list-detailed">Подробнее</p>
-              </div>
-            </a>
+          <a href="#" class="description__text-decor">
+            <div class="description__list-rectangle description__list-rectangle_orange_them">
+              <p class="description__list-detailed">Подробнее</p>
+            </div>
+          </a>
         </li>
         <li class="description__list-point">
           <p class="description__list-child">Для детей</p>
@@ -124,116 +127,148 @@
     </section>
     <section class="news">
       <div class="news__alignment">
-        <h2 class="news__sub">Новости</h2>
-        <div class="news__content">
-          <ul class="news__menu-links">
-            <li class="news__menu-link">
-              <div class="news__conteiner">
-                <a href="#">
-                  <div class="news__link-pic"></div>
-                </a>
-                <a href="#" class="news__link-item">
-                  <p class="news__text-sub">
-                    "Подготовки детей
-                    к поступлению в ДХШ"
-                  </p>
-                  <p class="news__text-def">
-                    Здесь Ваш ребенок получит
-                    начальные знания и умения по
-                    рисунку, живописи и композиции.
-                  </p>
-                  <p class="news__text-date">
-                    21.12.2022
-                  </p>
-                </a>
-              </div>
-            </li>
-            <li class="news__menu-link">
-              <div class="news__conteiner">
-                <a href="#">
-                  <div class="news__link-pic"></div>
-                </a>
-                <a href="#" class="news__link-item">
-                  <p class="news__text-sub">
-                    "Подготовки детей
-                    к поступлению в ДХШ"
-                  </p>
-                  <p class="news__text-def">
-                    Здесь Ваш ребенок получит
-                    начальные знания и умения по
-                    рисунку, живописи и композиции.
-                  </p>
-                  <p class="news__text-date">
-                    21.12.2022
-                  </p>
-                </a>
-              </div>
-            </li>
-            <li class="news__menu-link">
-              <div class="news__conteiner">
-                <a href="#">
-                  <div class="news__link-pic"></div>
-                </a>
-                <a href="#" class="news__link-item">
-                  <p class="news__text-sub">
-                    "Подготовки детей
-                    к поступлению в ДХШ"
-                  </p>
-                  <p class="news__text-def">
-                    Здесь Ваш ребенок получит
-                    начальные знания и умения по
-                    рисунку, живописи и композиции.
-                  </p>
-                  <p class="news__text-date">
-                    21.12.2022
-                  </p>
-                </a>
-              </div>
-            </li>
-            <li class="news__menu-link">
-              <div class="news__conteiner">
-                <a href="#">
-                  <div class="news__link-pic"></div>
-                </a>
-                <a href="#" class="news__link-item">
-                  <p class="news__text-sub">
-                    "Подготовки детей
-                    к поступлению в ДХШ"
-                  </p>
-                  <p class="news__text-def">
-                    Здесь Ваш ребенок получит
-                    начальные знания и умения по
-                    рисунку, живописи и композиции.
-                  </p>
-                  <p class="news__text-date">
-                    21.12.2022
-                  </p>
-                </a>
-              </div>
-            </li>
-            <li class="news__menu-link">
-              <div class="news__conteiner">
-                <a href="#">
-                  <div class="news__link-pic"></div>
-                </a>
-                <a href="#" class="news__link-item">
-                  <p class="news__text-sub">
-                    "Подготовки детей
-                    к поступлению в ДХШ"
-                  </p>
-                  <p class="news__text-def">
-                    Здесь Ваш ребенок получит
-                    начальные знания и умения по
-                    рисунку, живописи и композиции.
-                  </p>
-                  <p class="news__text-date">
-                    21.12.2022
-                  </p>
-                </a>
-              </div>
-            </li>
-          </ul>
+
+
+
+  <div class="itc-slider" data-slider="itc-slider">
+
+    <div class="itc-slider-wrapper">
+          <div class="slider-button">
+      <h2 class="news__sub">Новости</h2>
+    </div>
+      <div class="itc-slider-items">
+        <div class="itc-slider-item">
+          <div class="news__conteiner">
+            <a href="#">
+              <div class="news__link-pic"></div>
+            </a>
+            <a href="#" class="news__link-item">
+              <p class="news__text-sub">
+                "Подготовки детей
+                к поступлению в ДХШ"
+              </p>
+              <p class="news__text-def">
+                Здесь Ваш ребенок получит
+                начальные знания и умения по
+                рисунку, живописи и композиции.
+              </p>
+              <p class="news__text-date">
+                21.12.2022
+              </p>
+            </a>
+          </div>
         </div>
+        <div class="itc-slider-item">
+          <div class="news__conteiner">
+            <a href="#">
+              <div class="news__link-pic"></div>
+            </a>
+            <a href="#" class="news__link-item">
+              <p class="news__text-sub">
+                "Подготовки детей
+                к поступлению в ДХШ"
+              </p>
+              <p class="news__text-def">
+                Здесь Ваш ребенок получит
+                начальные знания и умения по
+                рисунку, живописи и композиции.
+              </p>
+              <p class="news__text-date">
+                21.12.2022
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="itc-slider-item">
+          <div class="news__conteiner">
+            <a href="#">
+              <div class="news__link-pic"></div>
+            </a>
+            <a href="#" class="news__link-item">
+              <p class="news__text-sub">
+                "Подготовки детей
+                к поступлению в ДХШ"
+              </p>
+              <p class="news__text-def">
+                Здесь Ваш ребенок получит
+                начальные знания и умения по
+                рисунку, живописи и композиции.
+              </p>
+              <p class="news__text-date">
+                21.12.2022
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="itc-slider-item">
+          <div class="news__conteiner">
+            <a href="#">
+              <div class="news__link-pic"></div>
+            </a>
+            <a href="#" class="news__link-item">
+              <p class="news__text-sub">
+                "Подготовки детей
+                к поступлению в ДХШ"
+              </p>
+              <p class="news__text-def">
+                Здесь Ваш ребенок получит
+                начальные знания и умения по
+                рисунку, живописи и композиции.
+              </p>
+              <p class="news__text-date">
+                21.12.2022
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="itc-slider-item">
+          <div class="news__conteiner">
+            <a href="#">
+              <div class="news__link-pic"></div>
+            </a>
+            <a href="#" class="news__link-item">
+              <p class="news__text-sub">
+                "Подготовки детей
+                к поступлению в ДХШ"
+              </p>
+              <p class="news__text-def">
+                Здесь Ваш ребенок получит
+                начальные знания и умения по
+                рисунку, живописи и композиции.
+              </p>
+              <p class="news__text-date">
+                21.12.2022
+              </p>
+            </a>
+          </div>
+        </div>
+        <div class="itc-slider-item">
+          <div class="news__conteiner">
+            <a href="#">
+              <div class="news__link-pic"></div>
+            </a>
+            <a href="#" class="news__link-item">
+              <p class="news__text-sub">
+                "Подготовки детей
+                к поступлению в ДХШ"
+              </p>
+              <p class="news__text-def">
+                Здесь Ваш ребенок получит
+                начальные знания и умения по
+                рисунку, живописи и композиции.
+              </p>
+              <p class="news__text-date">
+                21.12.2022
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Кнопки для перехода к предыдущему и следующему слайду -->
+    <button class="itc-slider-btn itc-slider-btn-prev"></button>
+    <button class="itc-slider-btn itc-slider-btn-next"></button>
+  </div>
       </div>
     </section>
     <section class="information">
@@ -274,11 +309,12 @@
             <a href="#"><img src="./images/Layer 63.png" alt="картинка" class="useful__pic"></a>
             <a href="#"><img src="./images/Layer 65.png" alt="картинка" class="useful__pic"></a>
             <a href="#"><img src="./images/Layer 67.png" alt="картинка" class="useful__pic"></a>
-          </div>
-          <div class="useful__conteiner">
             <a href="#"><img src="./images/Layer 66.png" alt="картинка" class="useful__pic"></a>
             <a href="#"><img src="./images/Layer 68.png" alt="картинка" class="useful__pic"></a>
             <a href="#"><img src="./images/Layer 69.png" alt="картинка" class="useful__pic"></a>
+          </div>
+          <div class="useful__conteiner">
+            
           </div>
         </div>
       </div>
@@ -339,14 +375,14 @@
     <div class="footer__menu">
       <ul class="footer__menu-links">
         <li>
-          <a href="#" class="footer__menu-link">Сведения об образовательном учрежеднии</a>
+          <a href="#" class="footer__menu-link footer__menu-map">Сведения об образовательном учрежеднии</a>
         </li>
-        <li><a href="#" class="footer__menu-link">Прием в школу</a></li>
-        <li><a href="#" class="footer__menu-link">Наши достижения</a></li>
-        <li><a href="#" class="footer__menu-link">Галерея работ</a></li>
-        <li><a href="#" class="footer__menu-link">Новости</a></li>
-        <li><a href="#" class="footer__menu-link">Контакты</a></li>
-        <div class="footer__site-map"><a href="#" class="footer__menu-link">Карта сайта</a>></div>
+        <li><a href="#" class="footer__menu-link footer__menu-map">Прием в школу</a></li>
+        <li><a href="#" class="footer__menu-link footer__menu-map">Наши достижения</a></li>
+        <li><a href="#" class="footer__menu-link footer__menu-map">Галерея работ</a></li>
+        <li><a href="#" class="footer__menu-link footer__menu-map">Новости</a></li>
+        <li><a href="#" class="footer__menu-link footer__menu-map">Контакты</a></li>
+        <div class="footer__site-map"><a href="#" class="footer__menu-link">Карта сайта</a></div>
       </ul>
     </div>
     <div class="footer__pic">
@@ -369,4 +405,6 @@
     </div>
   </footer>
 </body>
+<script src="./slider/itc-slider.js" defer></script>
+<script src="./index.js"></script>
 </html>

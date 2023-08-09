@@ -1,3 +1,11 @@
-.useful__pic{
-    max-height: 76px;
+.useful__pic {
+  max-height: 76px;
+}
+
+@media (max-width: 768px) {
+  .useful__pic {
+    top: 400px;
+    /* position: absolute; */
+    max-height: 50px;
+  }
 }

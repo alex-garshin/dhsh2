@@ -7,3 +7,12 @@
   font-weight: 700;
   color: #0f4f8f;
 }
+
+@media (max-width: 768px) {
+  .description__list-age {
+    max-width: 320px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+}

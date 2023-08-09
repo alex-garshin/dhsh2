@@ -1,5 +1,6 @@
 .useful__conteiner{
     display: flex;
+    flex-flow: row wrap;
     gap: 102px;
     margin-bottom: 40px;
 }

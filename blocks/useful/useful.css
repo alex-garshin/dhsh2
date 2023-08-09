@@ -3,3 +3,10 @@
     padding: 58px 98px 53px;
     background-color: #fff;
   }
+
+  @media (max-width: 768px) {
+    .useful {
+      padding: 58px 20px 53px;
+      max-width: 320px;
+    }
+  }

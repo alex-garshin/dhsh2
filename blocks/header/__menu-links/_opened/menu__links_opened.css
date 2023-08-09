@@ -1,0 +1,14 @@
+@media screen and (max-width: 768px) {
+  .menu__links_opened {
+    padding-top: 10px;
+    top: 40px;
+    position: absolute;
+    background-color: #052b58;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 15px;
+    height: 250px;
+    margin: 20px auto 10px;
+  }
+}

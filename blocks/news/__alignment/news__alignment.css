@@ -2,4 +2,11 @@
     margin: 0 auto;
     max-width: 1400px;
     width: 100%;
+    overflow: hidden;
 }
+
+@media (max-width: 479px) {
+    .news__alignment {
+      max-width: 1400px;
+    }
+  }

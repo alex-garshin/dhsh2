@@ -10,10 +10,13 @@
   letter-spacing: 1.4px;
 }
 
-footer__menu-link:last-child{
-    margin-left: 30px;
-}
-
 .footer__menu-link:hover{
   font-weight: 600;
+}
+
+@media (max-width: 950px) {
+  .footer__menu-link {
+    position: absolute;
+    left: 20px;
+  }
 }

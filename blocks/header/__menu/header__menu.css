@@ -6,3 +6,10 @@
   width: 100%;
   gap: 75px;
 }
+
+@media (max-width: 910px) {
+  .header__menu{
+    position: relative;
+    justify-content: space-between;
+  }
+}

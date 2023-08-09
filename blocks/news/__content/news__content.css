@@ -1,4 +1,6 @@
-.news__content{
-    display: flex;
+.news__content {
+  display: flex;
   width: 100%;
+  max-width: 1400px;
+  
 }

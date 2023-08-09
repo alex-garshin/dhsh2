@@ -7,3 +7,12 @@
   max-width: 160px;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .header__eyes {
+    position: absolute;
+    width: 300px;
+    top: 110px;
+    left: 20px;
+  }
+}

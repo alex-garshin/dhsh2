@@ -1,0 +1,13 @@
+.slider-button-item-left{
+    width: 20px;
+    height: 32px;
+    object-fit: cover; 
+    background: none;
+    background-image: url(../../images/button-slider-left.png);
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

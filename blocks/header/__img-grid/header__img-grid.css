@@ -6,3 +6,10 @@
   max-width: 1262px;
   width: 100%;
 }
+
+@media (max-width: 768px) {
+  .header__eyes {
+display: block;
+    margin-top: 200px;
+  }
+}

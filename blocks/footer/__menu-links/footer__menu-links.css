@@ -9,3 +9,9 @@
     gap: 20px;
   }
 
+  @media (max-width: 768px) {
+    .footer__menu-links {
+      max-width: 768px;
+    }
+  }
+

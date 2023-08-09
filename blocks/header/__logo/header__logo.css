@@ -6,3 +6,13 @@
   width: 160px;
   background-color: #e3e8ee;
 }
+
+@media (max-width: 768px) {
+  .header__logo {
+    position: absolute;
+    height: 135px;
+    top: 150px;
+    left: 20px;
+  }
+}
+

@@ -28,6 +28,14 @@
 @import url(../blocks/header/__img-grid/__img-item/header__img-item.css);
 @import url(../blocks/header/__content-column/header__content-column.css);
 @import url(../blocks/header/__img-column/header__img-column.css);
+@import url(../blocks/header/__menu-burger/header__menu-burger.css);
+@import url(../blocks/header/__menu-links/_opened/menu__links_opened.css);
+@import url(../blocks/header/__overflow/header__overflow.css);
+@import url(../blocks/header/__img-item/_big/header__img-item_big.css);
+@import url(../blocks/header/__img-item/_small/header__img-item_small.css);
+@import url(../blocks/header/__img-item/_big-wid1/header__img-item_big-wid1.css);
+@import url(../blocks/header/__img-item/_big-wid2/header__img-item_big-wid2.css);
+@import url(../blocks/header/__img-column/_wid/header__img-column_wid.css);
 
 /* description */
 @import url(../blocks/description/description.css);
@@ -54,6 +62,7 @@
 @import url(../blocks/news/__text-sub/news__text-sub.css);
 @import url(../blocks/news/__link-item/news__link-item.css);
 @import url(../blocks/news/__alignment/news__alignment.css);
+@import url(../blocks/news/__wrapper/news__wrapper.css);
 
 /* information */
 @import url(../blocks/information/information.css);
@@ -96,3 +105,13 @@
 @import url(../blocks/footer/__pic-sliders/footer__pic-sliders.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__text-link/footer__text-link.css);
+@import url(../blocks/footer/__menu-map/footer__menu-map.css);
+
+/* slider */
+
+@import url(../slider/itc-slider.css);
+
+@import url(../slider/slider-button/slider-button.css);
+@import url(../slider/slider-button-item/slider-button-item.css);
+@import url(../slider/slider-button-item/slider-button-item-right.css);
+@import url(../slider/butoon.css);
