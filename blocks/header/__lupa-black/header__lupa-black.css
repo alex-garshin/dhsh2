@@ -1,0 +1,19 @@
+.header__lupa-black {
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(../../../images/lupa-black.png);
+  object-fit: cover;
+  width: 25px;
+  height: 25px;
+  border: 0px;
+  margin-right: 120px;
+  display: none;
+}
+
+@media (max-width: 477px) {
+  .header__lupa-black{
+    margin-right: 10px;
+    padding-right: 10px;
+  }
+}

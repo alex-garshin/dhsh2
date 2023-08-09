@@ -1,0 +1,10 @@
+.header__search-block{
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0 0 0 0;
+    align-items: center;
+    height: 50px;
+    background-color: aliceblue;
+    border: 0;
+    display: none;
+}

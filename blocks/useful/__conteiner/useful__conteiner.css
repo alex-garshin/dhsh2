@@ -8,3 +8,9 @@
 .useful__conteiner:last-child{
     margin-bottom: 0;
 }
+
+@media (max-width: 768px) {
+    .useful__conteiner {
+        gap: 40px;
+    }
+  }

@@ -36,6 +36,12 @@
 @import url(../blocks/header/__img-item/_big-wid1/header__img-item_big-wid1.css);
 @import url(../blocks/header/__img-item/_big-wid2/header__img-item_big-wid2.css);
 @import url(../blocks/header/__img-column/_wid/header__img-column_wid.css);
+@import url(../blocks/header/__search/header__search.css);
+@import url(../blocks/header/__lupa-black/header__lupa-black.css);
+@import url(../blocks/header/__search-block/header__search-block.css);
+@import url(../blocks/header/__menu-links/_closed/menu-links_closed.css);
+@import url(../blocks/header/__search-block/_opened/header__search-block_opened.css);
+@import url(../blocks/header/__lupa/_closed/header__lupa_closed.css);
 
 /* description */
 @import url(../blocks/description/description.css);
