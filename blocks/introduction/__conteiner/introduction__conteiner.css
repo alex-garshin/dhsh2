@@ -1,5 +1,3 @@
-.introduction__text{
-    margin: 0 auto;
-    width: 100%;
-    text-align: center;
+.introduction__conteiner{
+    padding: 0 20px;
 }
