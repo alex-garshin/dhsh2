@@ -1,0 +1,19 @@
+.header__menu-line {
+  display: flex;
+  border-bottom: 2px solid #0f4f8f;
+  justify-content: center;
+  margin: 0 auto;
+  /* align-items: center; */
+  /* height: 3px; */
+  width: 100%;
+  gap: 150px;
+  /* background-color: #000; */
+}
+
+@media (max-width: 910px) {
+  .header__menu-line {
+    /* position: relative; */
+    justify-content: space-between;
+    gap: 20px;
+  }
+}

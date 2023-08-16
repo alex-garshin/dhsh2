@@ -1,10 +1,11 @@
 .news__text-sub {
+  font-family: "PTSans-CaptionBold";
   text-align: center;
   margin: 0;
   margin-top: 18px;
   padding: 0;
   font-size: 17px;
   line-height: 21px;
-  font-weight: 600;
+  font-weight: 400;
   color: #ff9600;
 }

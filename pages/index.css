@@ -41,7 +41,12 @@
 @import url(../blocks/header/__search-block/header__search-block.css);
 @import url(../blocks/header/__menu-links/_closed/menu-links_closed.css);
 @import url(../blocks/header/__search-block/_opened/header__search-block_opened.css);
+@import url(../blocks/header/__search-block/_closed/header__search-block_closed.css);
 @import url(../blocks/header/__lupa/_closed/header__lupa_closed.css);
+@import url(../blocks/header/__lupa/_opened/header__lupa_opened.css);
+@import url(../blocks/header/__lupa-black/_opened/header__lupa-black_opened.css);
+@import url(../blocks/header/__menu-line/header__menu-line.css);
+@import url(../blocks/header/__search-block-wid/header__search-block-wid.css);
 
 /* description */
 @import url(../blocks/description/description.css);
