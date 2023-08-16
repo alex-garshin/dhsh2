@@ -1,8 +1,8 @@
 .footer__pic {
   padding-top: 22px;
   padding-bottom: 22px;
-  border-top: 7px solid #0f4f8f;
-  border-bottom: 7px solid #0f4f8f;
+  border-top: 4px solid #0f4f8f;
+  border-bottom: 4px solid #0f4f8f;
   display: flex;
   width: 100%;
 }

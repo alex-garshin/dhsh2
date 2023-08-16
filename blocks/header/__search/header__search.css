@@ -1,6 +1,7 @@
 .header__search {
   height: 40px;
   background-color: transparent;
+  text-align: right;
   border: 0;
   margin-right: 20px;
   width: 100%;
@@ -13,7 +14,6 @@
 
 @media (max-width: 400px) {
   .header__search {
-    
     /* width: 150px; */
     margin-right: -10px;
   }

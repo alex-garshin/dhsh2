@@ -9,7 +9,7 @@
 }
 
 @media (max-width: 768px) {
-  .header__lupa-black {
+  .introduction__text {
     margin: 0 20px;
   }
 }
