@@ -15,9 +15,16 @@
   color: #ff8400;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1260px) {
   .footer__menu-link {
     position: absolute;
+    top: 16px;
+    left: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__menu-link {
     left: 20px;
   }
 }

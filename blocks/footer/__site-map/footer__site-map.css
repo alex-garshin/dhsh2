@@ -1,4 +1,8 @@
-.footer__site-map{
-    margin: 0 auto;
-    /* width: 100%; */
+.footer__site-map {
+  margin: 0;
+  align-items: center;
+  width: 121px;
+  /* margin-right: 10px; */
+  /* height: 20px;
+  width: 121px; */
 }
