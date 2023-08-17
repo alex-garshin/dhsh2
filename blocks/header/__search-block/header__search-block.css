@@ -1,15 +1,24 @@
 .header__search-block {
   width: 100%;
-  justify-content: center;
-  padding: 0 250px;
-  align-items: center;
-  height: 52px;
-  background-color: aliceblue;
+
   border: 0;
+  
+}
+
+
+.header__search-block {
+  height: 54px;
+  background-color: aliceblue;
+  position: absolute;
+  align-items: center;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: none;
 }
 
-@media (max-width: 1770px) {
+/* @media (max-width: 1770px) {
   .header__search-block {
     padding-left: 150px;
     padding-right: 150px;
@@ -29,4 +38,4 @@
     padding-left: 10px;
     padding-right: 10px;
   }
-}
+} */

@@ -1,8 +1,8 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1194px) {
   .menu__links_opened {
     padding: 20px 20px;
     box-sizing: border-box;
-    top: 45px;
+    top: 39px;
     position: absolute;
     background-color: #052b58;
     display: flex;

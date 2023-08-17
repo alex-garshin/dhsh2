@@ -12,7 +12,11 @@
   cursor: pointer;
 }
 
-@media (max-width: 925px) {
+.header__lupa:hover {
+  background-image: url(../../../images/lupa-or.png);
+}
+
+@media (max-width: 1244px) {
   .header__lupa {
     justify-content: space-between;
     margin-right: 20px;

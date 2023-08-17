@@ -1,17 +1,15 @@
 .header__menu {
+  position: relative;
   margin: 0 auto;
   align-items: center;
   border-top: 4px solid #0f4f8f;
   border-bottom: 4px solid #052b58;
-  display: flex;
-  justify-content: space-between;
   width: 100%;
   gap: 75px;
 }
 
 @media (max-width: 910px) {
   .header__menu{
-    position: relative;
-    justify-content: space-between;
+
   }
 }

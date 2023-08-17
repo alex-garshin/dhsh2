@@ -2,9 +2,9 @@
   padding: 0;
   /* margin-left: 100px; */
   display: flex;
-  max-width: 1186px;
+  max-width: 1194px;
   width: 100%;
-  gap: 20px;
+  gap: 30px;
   /* justify-content: flex-start; */
 }
 
@@ -14,8 +14,13 @@
   }
 }
 
+@media (max-width: 1244px) {
+  .header__menu-links{
+    gap: 20px;
+  }
+}
 
-@media (max-width: 810px) {
+@media (max-width: 1194px) {
   .header__menu-links{
     display: none;
     height: 20px;

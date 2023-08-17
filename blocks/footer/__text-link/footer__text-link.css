@@ -6,3 +6,7 @@
   color: #e3e8ee;
   font-size: 13px;
 }
+
+.footer__text-link:hover {
+  color: #ff8400;
+}

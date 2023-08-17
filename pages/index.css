@@ -47,6 +47,8 @@
 @import url(../blocks/header/__lupa-black/_opened/header__lupa-black_opened.css);
 @import url(../blocks/header/__menu-line/header__menu-line.css);
 @import url(../blocks/header/__search-block-wid/header__search-block-wid.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+@import url(../blocks/header/__eyes-text-decor/header__eyes-text-decor.css);
 
 /* description */
 @import url(../blocks/description/description.css);

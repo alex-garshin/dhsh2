@@ -10,7 +10,11 @@
   display: none;
 }
 
-@media (max-width: 810px) {
+.header__menu-burger:hover {
+  background-image: url(../../../images/menu-or.png);
+}
+
+@media (max-width: 1194px) {
   .header__menu-burger {
     margin-top: 12px;
     margin-left: 20px;

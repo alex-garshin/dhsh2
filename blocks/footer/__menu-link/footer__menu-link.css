@@ -12,11 +12,10 @@
 }
 
 .footer__menu-link:hover{
-  font-family: 'PTSans-CaptionBold';
-  font-weight: 400;
+  color: #ff8400;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1240px) {
   .footer__menu-link {
     position: absolute;
     left: 20px;

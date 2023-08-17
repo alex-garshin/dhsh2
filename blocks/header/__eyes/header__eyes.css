@@ -1,4 +1,5 @@
 .header__eyes {
+  padding: 0;
   text-decoration: none;
   background-color: #052b58;
   border: 0;
@@ -9,7 +10,15 @@
   align-items: center;
   max-width: 160px;
   width: 100%;
-  cursor: pointer
+  cursor: pointer;
+}
+
+.header__eyes:hover .header__version-without-eye {
+  color: #ff8400;
+}
+
+.header__eyes:hover .header__eye-img {
+  background-image: url(../../../images/eye-or.png);
 }
 
 @media (max-width: 768px) {

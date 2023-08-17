@@ -1,0 +1,9 @@
+.header__menu-item{
+    display: flex;
+    width: 100%;
+    max-width: 1400px;
+    height: 54px;
+    /* gap: 150px; */
+    justify-content: space-between;
+  margin: 0 auto;
+}

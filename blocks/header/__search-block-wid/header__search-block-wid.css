@@ -1,9 +1,9 @@
 .header__search-block-wid{
-    padding: 0 20px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1600px;
+    max-width: 1400px;
+    height: 54px;
 }

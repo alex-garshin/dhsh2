@@ -12,8 +12,7 @@
 }
 
 .header__menu-link:hover{
-  font-family: "PTSans-CaptionBold";
-  font-weight: 600;
+  color: #ff8400;
 }
 
 /* @media (max-width: 768px) {
