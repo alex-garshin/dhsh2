@@ -1,0 +1,9 @@
+.conditions__information_link{
+    margin-top: 25px;
+}
+
+@media (max-width: 768px) {
+    .conditions__information_link {
+        margin-top: 40px;
+    }
+  }

@@ -1,0 +1,11 @@
+.conditions__link_text {
+    font-family: "PTSans-CaptionBold";
+    text-align: left;
+    margin: 0;
+    margin-bottom: 14px;
+    padding: 0;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ff9600;
+    padding: 0;
+}

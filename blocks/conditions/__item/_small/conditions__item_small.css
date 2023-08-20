@@ -1,0 +1,12 @@
+.conditions__item_small {
+  /* margin-left: 1px;
+  margin-right: 1px; */
+  background-color: #0f4f8f;
+  padding: 10px;
+  border: solid #fff 1px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  border-left: solid #0f4f8f 1px;
+  border-right: solid #0f4f8f 1px;
+}

@@ -1,0 +1,10 @@
+.conditions__info{
+    margin-bottom: 40px;
+}
+
+@media (max-width: 1140px) {
+    .conditions__info {
+      margin: 0;
+    }
+  }
+  

@@ -1,0 +1,18 @@
+.conditions__table_small{
+    display: none;
+}
+
+@media (max-width: 1140px) {
+    .conditions__table_small{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .conditions__table_small{
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+  }

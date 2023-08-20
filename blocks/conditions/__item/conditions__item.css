@@ -1,0 +1,16 @@
+.conditions__item {
+  background-color: #0f4f8f;
+  padding: 10px;
+  /* box-sizing: content-box; */
+  /* width: 100%; */
+  border: solid #fff 1px;
+}
+
+@media (max-width: 1140px) {
+  .conditions__item {
+    display: flex;
+    align-items: center;
+    border: 0;
+    border-bottom: solid #fff 1px;
+  }
+}

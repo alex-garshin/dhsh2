@@ -1,0 +1,14 @@
+.contest__pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-height: 290px;
+    max-width: 440px;
+    object-fit: cover;
+}
+
+@media (max-width: 1110px) {
+    .contest__pic {
+      max-width: 360px;
+    }
+  }

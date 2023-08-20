@@ -1,0 +1,13 @@
+.site-page_grey {
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-size: 17px;
+  color: #80818b;
+}
+
+@media (max-width: 400px) {
+  .site-page_grey {
+    font-size: 15px;
+  }
+}

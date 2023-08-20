@@ -1,0 +1,22 @@
+.programms__text {
+  text-decoration: none;
+  font-family: "PTSans-CaptionBold";
+  text-align: left;
+  margin: 0;
+  margin-bottom: 21px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ff9600;
+}
+
+.programms__text-link {
+  font-family: "PTSans-CaptionBold";
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 400;
+}

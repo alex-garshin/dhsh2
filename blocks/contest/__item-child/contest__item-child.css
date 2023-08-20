@@ -1,0 +1,18 @@
+.contest__item-child {
+  padding: 0;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 80px;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media (max-width: 1110px) {
+    .contest__item-child {
+      max-width: 360px;
+    }
+  }
