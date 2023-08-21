@@ -1,0 +1,9 @@
+.advance__text {
+  text-align: justify;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 12px;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+}

@@ -9,3 +9,9 @@
       padding: 40px 20px 40px;
     }
   }
+
+  @media (max-width: 380px) {
+    .contest {
+      padding: 40px 0px 40px;
+    }
+  }

@@ -1,0 +1,14 @@
+.advance__conteiner{
+display: flex;
+align-items: start;
+justify-content: space-between;
+gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .advance__conteiner {
+flex-direction: column;
+    }
+  }
+
+

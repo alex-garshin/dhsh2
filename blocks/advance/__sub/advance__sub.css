@@ -1,4 +1,4 @@
-.contest__sub {
+.advance__sub {
   font-family: "PTSans-CaptionBold";
   font-size: 42px;
   line-height: 48px;
@@ -11,16 +11,10 @@
 }
 
 @media (max-width: 1140px) {
-  .contest__sub {
+  .advance__sub {
     font-size: 32px;
     line-height: 34px;
     font-weight: 600;
     margin-bottom: 25px;
-  }
-}
-
-@media (max-width: 380px) {
-  .contest__sub {
-    margin-left: 20px;
   }
 }
