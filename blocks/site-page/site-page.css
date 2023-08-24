@@ -1,6 +1,7 @@
 .site-page {
+  gap: 10px;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 360px;
   position: absolute;
   top: -25px;
@@ -14,6 +15,7 @@
 
 @media (max-width: 380px) {
   .site-page {
+    width: 300px;
     margin-left: 20px;
   }
 }

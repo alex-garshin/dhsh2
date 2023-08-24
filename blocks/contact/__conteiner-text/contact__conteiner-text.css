@@ -1,0 +1,9 @@
+.contact__conteiner-text{
+    min-width: 360px;
+}
+
+@media (max-width: 380px) {
+    .contact__conteiner-text {
+      min-width: 320px;
+    }
+  }

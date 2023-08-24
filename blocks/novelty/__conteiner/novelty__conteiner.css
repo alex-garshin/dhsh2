@@ -1,12 +1,15 @@
-.advance__conteiner {
-  display: flex;
+.novelty__conteiner {
+  display: block;
   align-items: start;
   justify-content: space-between;
   gap: 30px;
 }
 
 @media (max-width: 768px) {
-  .advance__conteiner {
+  .novelty__conteiner {
+    display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: 0;
   }
 }

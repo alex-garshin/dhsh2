@@ -1,0 +1,19 @@
+.novelty__img {
+  max-height: 236px;
+  /* max-width: 440px; */
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .novelty__img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 484px) {
+  .novelty__img {
+    height: 171px;
+  }
+}
