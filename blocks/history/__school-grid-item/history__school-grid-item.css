@@ -1,0 +1,15 @@
+.history__school-grid-item {
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .history__school-grid-item {
+    width: 340px;
+  }
+}
+
+/* @media (max-width: 400px) {
+    .history__school-grid-item {
+      width: 340px;
+    }
+  } */

@@ -13,6 +13,7 @@
 /* site-page */
 
 @import url(../blocks/site-page/site-page.css);
+@import url(../blocks/site-page/__link/site-page__link.css);
 @import url(../blocks/site-page/_grey/site-page_grey.css);
 @import url(../blocks/site-page/_or/site-page_or.css);
 

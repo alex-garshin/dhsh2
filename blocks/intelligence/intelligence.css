@@ -1,0 +1,12 @@
+.intelligence {
+    margin: 0;
+    padding: 20px 100px 55px;
+    background-color: #fff;
+    border-bottom: 4px solid #0f4f8f;
+  }
+  
+  @media (max-width: 768px) {
+    .intelligence {
+      padding: 10px 20px 40px;
+    }
+  }

@@ -1,0 +1,12 @@
+.history__teachers-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .history__teachers-item {
+    width: 340px;
+  }
+}

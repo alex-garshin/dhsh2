@@ -1,6 +1,6 @@
 .contest {
     margin: 0;
-    padding: 55px 100px 55px;
+    padding: 20px 100px 55px;
     background-color: #fff;
   }
   
@@ -12,6 +12,6 @@
 
   @media (max-width: 380px) {
     .contest {
-      padding: 40px 0px 40px;
+      padding: 10px 0px 40px;
     }
   }

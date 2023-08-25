@@ -1,0 +1,9 @@
+.history__school-grid-img {
+  width: 400px;
+}
+
+@media (max-width: 768px) {
+  .history__school-grid-img {
+    width: 340px;
+  }
+}

@@ -2,9 +2,10 @@
   gap: 10px;
   display: flex;
   justify-content: flex-start;
-  width: 360px;
-  position: absolute;
+  /* width: 360px; */
+  /* position: absolute; */
   top: -25px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 400px) {

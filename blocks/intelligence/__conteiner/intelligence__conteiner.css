@@ -1,0 +1,16 @@
+.intelligence__conteiner {
+    display: block;
+    align-items: start;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  @media (max-width: 768px) {
+    .intelligence__conteiner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0;
+    }
+  }
+  

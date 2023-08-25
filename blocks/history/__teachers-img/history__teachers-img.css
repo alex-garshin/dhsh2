@@ -1,0 +1,9 @@
+.history__teachers-img {
+    width: 400px;
+  }
+  
+  @media (max-width: 768px) {
+    .history__teachers-img {
+      width: 340px;
+    }
+  }

@@ -1,11 +1,11 @@
 .novelty {
-    margin: 0;
-    padding: 55px 100px 55px;
-    background-color: #fff;
+  margin: 0;
+  padding: 20px 100px 55px;
+  background-color: #fff;
+}
+
+@media (max-width: 888px) {
+  .novelty {
+    padding: 10px 20px 40px;
   }
-  
-  @media (max-width: 888px) {
-    .novelty {
-      padding: 40px 20px 40px;
-    }
-  }
+}
