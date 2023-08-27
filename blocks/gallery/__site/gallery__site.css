@@ -1,0 +1,17 @@
+.gallery__site {
+  margin: 0;
+  padding: 20px 100px 55px;
+  background-color: #fff;
+}
+
+@media (max-width: 768px) {
+  .gallery__site {
+    padding: 40px 20px 40px;
+  }
+}
+
+@media (max-width: 380px) {
+  .gallery__site {
+    padding: 10px 0px 40px;
+  }
+}

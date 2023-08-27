@@ -1,0 +1,8 @@
+.gallery__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+  }
+
+  
