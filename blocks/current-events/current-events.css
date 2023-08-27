@@ -1,0 +1,13 @@
+.current-events {
+    margin: 0;
+    padding: 55px 100px 55px;
+    background-color: #fff;
+    border-bottom: 4px solid #052b58;
+  }
+  
+  @media (max-width: 768px) {
+    .current-events {
+      padding: 40px 20px 40px;
+    }
+  }
+  

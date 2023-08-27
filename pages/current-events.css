@@ -70,10 +70,23 @@
 @import url(../blocks/footer/__menu-map/footer__menu-map.css);
 @import url(../blocks/footer/__menu-link-family/footer__menu-link-family.css);
 
-/* novelty */
-@import url(../blocks/novelty/novelty.css);
-@import url(../blocks/novelty/__content/novelty__content.css);
-@import url(../blocks/novelty/__sub/novelty__sub.css);
-@import url(../blocks/novelty/__conteiner/novelty__conteiner.css);
-@import url(../blocks/novelty/__img/novelty__img.css);
-@import url(../blocks/novelty/__text/novelty__text.css);
+/* current-events */
+@import url(../blocks/current-events/current-events.css);
+@import url(../blocks/current-events/__content/current-events__content.css);
+@import url(../blocks/current-events/__sub/current-events__sub.css);
+@import url(../blocks/current-events/__conteiner/current-events__conteiner.css);
+
+/* news */
+@import url(../blocks/news/news.css);
+@import url(../blocks/news/__sub/news__sub.css);
+@import url(../blocks/news/__menu-link/news__menu-link.css);
+@import url(../blocks/news/__menu-links/news__menu-links.css);
+@import url(../blocks/news/__link-pic/news__link-pic.css);
+@import url(../blocks/news/__conteiner/news__conteiner.css);
+@import url(../blocks/news/__text-date/news__text-date.css);
+@import url(../blocks/news/__text-def/news__text-def.css);
+@import url(../blocks/news/__text-sub/news__text-sub.css);
+@import url(../blocks/news/__link-item/news__link-item.css);
+@import url(../blocks/news/__alignment/news__alignment.css);
+@import url(../blocks/news/__wrapper/news__wrapper.css);
+
