@@ -1,0 +1,11 @@
+.gallery__img {
+  width: 440px;
+  height: 300px;
+}
+
+@media (max-width: 460px) {
+    .gallery__img {
+      width: 360px;
+      height: 240px;
+    }
+  }

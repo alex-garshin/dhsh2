@@ -1,0 +1,14 @@
+.gallery__pic {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 440px;
+  height: 300px;
+}
+
+@media (max-width: 460px) {
+    .gallery__pic {
+      width: 360px;
+      height: 240px;
+    }
+  }

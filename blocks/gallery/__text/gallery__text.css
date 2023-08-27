@@ -1,0 +1,18 @@
+.gallery__text {
+  position: absolute;
+  font-size: 24px;
+  bottom: 10px;
+  font-family: "PTSans-CaptionBold";
+  text-align: center;
+  padding: 0;
+  line-height: 30px;
+  font-weight: 600;
+  color: #e3e8ee;
+  z-index: 2;
+}
+
+@media (max-width: 460px) {
+    .gallery__text {
+        font-size: 18px;
+    }
+  }
