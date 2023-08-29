@@ -1,0 +1,34 @@
+.base__text {
+  font-family: "PTSans-CaptionBold";
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ff9600;
+}
+
+.base__grid-text-sub {
+  font-family: "PTSans-CaptionBold";
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 14px;
+  font-weight: 400;
+  color: #0f4f8f;
+}
+
+.base__grid-text {
+  font-family: "PTSans-Caption";
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #000;
+}

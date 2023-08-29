@@ -1,0 +1,9 @@
+.base__grid-lic {
+  width: 440px;
+}
+
+@media (max-width: 480px) {
+  .base__grid-lic {
+    width: 320px;
+  }
+}

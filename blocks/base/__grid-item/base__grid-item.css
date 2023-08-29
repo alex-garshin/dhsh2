@@ -1,0 +1,10 @@
+.base__grid-teach-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 320px;
+  border: 1px solid #a7b5c3;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}

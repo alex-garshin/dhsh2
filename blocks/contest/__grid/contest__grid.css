@@ -16,10 +16,10 @@
 }
 
 @media (max-width: 956px) {
-    .contest__grid {
-      display: grid;
-      grid-template-columns: 1fr;
-      column-gap: 30px;
-      row-gap: 50px;
-    }
+  .contest__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 30px;
+    row-gap: 50px;
   }
+}
