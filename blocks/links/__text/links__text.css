@@ -1,0 +1,15 @@
+.links__text {
+  font-family: "PTSans-Caption";
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 7px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #e3e8ee;
+}
+
+.links__text:hover {
+  color: #ff8400;
+}

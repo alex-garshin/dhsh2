@@ -128,3 +128,10 @@
 @import url(../slider/slider-button-item/slider-button-item-right.css);
 @import url(../slider/butoon.css);
 
+/* links */
+@import url(../blocks/links/links.css);
+@import url(../blocks/links/__content/links__content.css);
+@import url(../blocks/links/__sub/links__sub.css);
+@import url(../blocks/links/__links/links__links.css);
+@import url(../blocks/links/__text/links__text.css);
+@import url(../blocks/links/__grid/links__grid.css);

@@ -1,0 +1,12 @@
+.links {
+  margin: 0;
+  padding: 20px 100px 20px;
+  background-color: #052b58;
+  border-bottom: 4px solid #0f4f8f;
+}
+
+@media (max-width: 768px) {
+  .links {
+    padding: 20px 20px 20px;
+  }
+}

@@ -20,3 +20,13 @@
     margin-left: 20px;
   }
 }
+
+.site-page-long {
+  gap: 10px;
+  display: flex;
+  justify-content: flex-start;
+  /* width: 360px; */
+  /* position: absolute; */
+  top: -25px;
+  margin: 0;
+}

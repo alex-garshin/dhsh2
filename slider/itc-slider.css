@@ -17,10 +17,15 @@
 }
 
 .itc-slider-items {
+  height: 300px;
   display: flex;
+  overflow: visible;
+  justify-content: space-between;
+  padding-left: 10px;
+  /* padding-right: 5px; */
   transition: transform 0.5s ease;
   will-change: transform;
-  gap: 10px;
+  gap: 6px;
 }
 
 .itc-slider-transition-none {

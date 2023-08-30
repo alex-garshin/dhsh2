@@ -1,3 +1,9 @@
 .base__link {
   text-decoration: none;
+
+}
+
+.base__link-img{
+width: 22px;
+height: 12px;
 }

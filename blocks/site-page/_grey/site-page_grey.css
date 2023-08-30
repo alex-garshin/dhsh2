@@ -11,3 +11,12 @@
     font-size: 15px;
   }
 }
+
+.site-page_grey-long{
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  font-size: 17px;
+  color: #80818b;
+  margin-bottom: 10px;
+}

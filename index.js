@@ -6,6 +6,10 @@ const menuLink = menu.querySelectorAll(".header__menu-link");
 const lupaSearch = menu.querySelector(".header__lupa");
 const searchBlock = menu.querySelector(".header__search-block");
 const lupaSearchBlack = menu.querySelector(".header__lupa-black");
+const listSelect = document.querySelector(".base__lists-selector")
+
+
+
 
 buttonMenu.addEventListener("click", () => {
   switchMenu();

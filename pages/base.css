@@ -82,5 +82,37 @@
 @import url(../blocks/base/__grid-lic/base__grid-lic.css);
 @import url(../blocks/base/__link/_marg/base__link_marg.css);
 @import url(../blocks/base/__grid-link/base__grid-link.css);
+@import url(../blocks/base/__lists/base__lists.css);
+
+/* description */
+@import url(../blocks/description/description.css);
+@import url(../blocks/description/__slogan/description__slogan.css);
+@import url(../blocks/description/__list/description__list.css);
+@import url(../blocks/description/__list-point/description__list-point.css);
+@import url(../blocks/description/__list-age/description__list-age.css);
+@import url(../blocks/description/__list-child/description__list-child.css);
+@import url(../blocks/description/__list-possibility/description__list-possibility.css);
+@import url(../blocks/description/__list-rectangle/description__list-rectangle.css);
+@import url(../blocks/description/__list-detailed/description__list-detailed.css);
+@import url(../blocks/description/__text-decor/description__text-decor.css);
+@import url(../blocks/description/__list-rectangle/_orange_them/description__list-rectangle_orange_them.css);
+
+/* gallery */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__content/gallery__content.css);
+@import url(../blocks/gallery/__sub/gallery__sub.css);
+@import url(../blocks/gallery/__text/gallery__text.css);
+@import url(../blocks/gallery/__pics/gallery__pics.css);
+@import url(../blocks/gallery/__pic/gallery__pic.css);
+@import url(../blocks/gallery/__img/gallery__img.css);
+@import url(../blocks/gallery/__shad/gallery__shad.css);
+@import url(../blocks/gallery/__grid/gallery__grid.css);
+@import url(../blocks/gallery/__link/gallery__link.css);
+@import url(../blocks/gallery/__site/gallery__site.css);
+@import url(../blocks/gallery/__grid-items/gallery__grid-items.css);
+@import url(../blocks/gallery/__img-small/gallery__img-small.css);
+@import url(../blocks/gallery/__item/gallery__item.css);
+@import url(../blocks/gallery/__item-text/gallery__item-text.css);
+@import url(../blocks/gallery/__button/gallery__button.css);
 
 
