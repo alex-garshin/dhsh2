@@ -1,7 +1,7 @@
 .history__teachers-item {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 400px;
 }
 

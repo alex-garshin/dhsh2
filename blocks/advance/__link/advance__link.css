@@ -10,3 +10,7 @@
   font-weight: 400;
   color: #ff9600;
 }
+
+.advance__link:hover{
+    color: #ff8400;
+  }

@@ -6,10 +6,18 @@ const menuLink = menu.querySelectorAll(".header__menu-link");
 const lupaSearch = menu.querySelector(".header__lupa");
 const searchBlock = menu.querySelector(".header__search-block");
 const lupaSearchBlack = menu.querySelector(".header__lupa-black");
-const listSelect = document.querySelector(".base__lists-selector")
+const listbutton = document.querySelector(".base__button");
+const listSelect = document.querySelector(".list__ul")
+const listOpened = listSelect.querySelector(".base__conteiner_opened")
+const listClosed = listSelect.querySelector(".base__conteiner_closed")
 
+listbutton.addEventListener("click", () => {
+  buttonLink();
+});
 
-
+const buttonLink = () => {
+  listSelect.classList.toggle('base__conteiner_closed');
+}
 
 buttonMenu.addEventListener("click", () => {
   switchMenu();
@@ -55,4 +63,8 @@ document.addEventListener("click", (event) => {
   if (!isClickInside) {
     toggleSearchBlock();
   }
+});
+
+Fancybox.bind("[data-fancybox]", {
+  // Your custom options
 });

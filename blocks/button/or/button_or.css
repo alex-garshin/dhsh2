@@ -1,0 +1,7 @@
+.button_or {
+  background-color: #ff9600;
+}
+
+.button_or:hover {
+  background-color: #ff8400;
+}

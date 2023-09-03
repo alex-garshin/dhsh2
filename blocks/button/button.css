@@ -1,13 +1,12 @@
-/* .button {
+.button {
   text-decoration: none;
   height: 57px;
   width: 330px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   font-family: "PTSans-CaptionBold";
-  color: #ffffff;
   font-size: 21px;
   line-height: 22px;
   font-weight: 400;
-} */
+}

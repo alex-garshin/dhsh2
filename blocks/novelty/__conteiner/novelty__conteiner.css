@@ -5,6 +5,36 @@
   gap: 30px;
 }
 
+.novelty__conteiner p{
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.novelty__conteiner img{
+  /* max-height: 236px; */
+  /* max-width: 440px; */
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .novelty__conteiner img {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 484px) {
+  .novelty__conteiner img {
+    height: 171px;
+  }
+}
+
 @media (max-width: 768px) {
   .novelty__conteiner {
     display: flex;

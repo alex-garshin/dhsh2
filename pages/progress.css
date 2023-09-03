@@ -80,3 +80,11 @@
 @import url(../blocks/advance/__links/advance__links.css);
 @import url(../blocks/advance/__link-text/advance__link-text.css);
 @import url(../blocks/advance/__text/advance__text.css);
+
+/* novelty */
+@import url(../blocks/novelty/novelty.css);
+@import url(../blocks/novelty/__content/novelty__content.css);
+@import url(../blocks/novelty/__sub/novelty__sub.css);
+@import url(../blocks/novelty/__conteiner/novelty__conteiner.css);
+@import url(../blocks/novelty/__img/novelty__img.css);
+@import url(../blocks/novelty/__text/novelty__text.css);

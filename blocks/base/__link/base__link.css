@@ -3,6 +3,10 @@
 
 }
 
+.base__link:hover{
+  color: #ff8400;
+}
+
 .base__link-img{
 width: 22px;
 height: 12px;

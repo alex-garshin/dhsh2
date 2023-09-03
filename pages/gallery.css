@@ -10,6 +10,11 @@
 /* main */
 @import url(../blocks/main/main.css);
 
+/* button */
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/or/button_or.css);
+@import url(../blocks/button/button-text_white/button-text_white.css);
+
 /* site-page */
 
 @import url(../blocks/site-page/site-page.css);
