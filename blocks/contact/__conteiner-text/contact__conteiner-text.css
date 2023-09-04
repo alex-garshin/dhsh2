@@ -2,15 +2,6 @@
     min-width: 360px;
 }
 
-.contact__conteiner-text p{
-  padding: 0;
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 18px;
-  line-height: 25px;
-  font-weight: 400;
-}
-
 @media (max-width: 380px) {
     .contact__conteiner-text {
       min-width: 320px;
