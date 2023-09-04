@@ -7,6 +7,9 @@
 /*body*/
 @import url(../blocks/body/body.css);
 
+/* text-block */
+@import url(../blocks/text-block/text-block.css);
+
 /* main */
 @import url(../blocks/main/main.css);
 
