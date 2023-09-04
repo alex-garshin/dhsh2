@@ -1,4 +1,4 @@
-.text__block p {
+.text-block p {
   padding: 0;
   margin: 0;
   margin-bottom: 20px;
@@ -7,7 +7,7 @@
   font-weight: 400;
 }
 
-.text__block a {
+.text-block a {
   font-family: "PTSans-CaptionBold";
   text-align: left;
   margin: 0;
@@ -19,11 +19,11 @@
   text-decoration: none;
 }
 
-.text__block a:hover {
+.text-block a:hover {
   color: #ff8400;
 }
 
-.text__block a[href^="tel:"] {
+.text-block a[href^="tel:"] {
   font-family: "PTSans-CaptionBold";
   text-align: left;
   margin: 0;
@@ -35,11 +35,11 @@
   text-decoration: none;
 }
 
-.text__block a[href^="tel:"]:hover {
+.text-block a[href^="tel:"]:hover {
   color: #ff9600;
 }
 
-.text__block a[href^="mailto:"] {
+.text-block a[href^="mailto:"] {
   font-family: "PTSans-CaptionBold";
   text-align: left;
   margin: 0;
@@ -51,6 +51,6 @@
   text-decoration: none;
 }
 
-.text__block a[href^="mailto:"]:hover {
+.text-block a[href^="mailto:"]:hover {
   color: #ff9600;
 }
