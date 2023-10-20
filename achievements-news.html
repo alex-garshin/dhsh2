@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>ДХШ</title>
   <link rel="stylesheet" href="pages/achievements.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 </head>
 
 <body class="body">
@@ -90,61 +91,36 @@
   <main class="main">
     <section class="contest">
       <div class="contest__content">
-        <div class="site-page">
-            <a href="./progress.html" class="site-page__link"><p class="site-page-or">Наши достижения</p></a><p class="site-page_grey">/</p><p class="site-page_grey">Городские конкурсы</p>
+        <div class="site-page-long">
+            <a href="./progress.html" class="site-page__link">
+                <p class="site-page-or">Наши достижения</p>
+            </a>
+            <p class="site-page_grey">/</p><a href="./achievements.html" class="site-page__link">
+                <p class="site-page-or">Городские конкурсы</p>
+            </a>
+            <p class="site-page_grey">/</p>
         </div>
-        
-        <h2 class="contest__sub">Городские конкурсы</h2>
-        <div class="contest__grid">
-            <a href="./achievements-news.html" class="contest__grid-item">
-              <div class="contest__grid-item-name">
-                <h3 class="contest__item-name">Городская именная стипендия одаренным детям
-                  по итогам 2021 - 2022 учебного года
-                  </h3>
-                <h4 class="contest__item-text">г. Нижний Новгород, 2022 г.</h4>
-              </div>
-            </a>
-            <a href="./achievements-news.html" class="contest__grid-item">
-              <div class="contest__grid-item-name">
-                <h3 class="contest__item-name">Городская именная стипендия одаренным детям
-                  по итогам 2021 - 2022 учебного года
-                  </h3>
-                <h4 class="contest__item-text">г. Нижний Новгород, 2022 г.</h4>
-              </div>
-            </a>
-            <a href="./achievements-news.html" class="contest__grid-item">
-              <div class="contest__grid-item-name">
-                <h3 class="contest__item-name">Городская именная стипендия одаренным детям
-                  по итогам 2021 - 2022 учебного года
-                  </h3>
-                <h4 class="contest__item-text">г. Нижний Новгород, 2022 г.</h4>
-              </div>
-            </a>
-            <a href="./achievements-news.html" class="contest__grid-item">
-              <div class="contest__grid-item-name">
-                <h3 class="contest__item-name">Городская именная стипендия одаренным детям
-                  по итогам 2021 - 2022 учебного года
-                  </h3>
-                <h4 class="contest__item-text">г. Нижний Новгород, 2022 г.</h4>
-              </div>
-            </a>
-            <a href="./achievements-news.html" class="contest__grid-item">
-              <div class="contest__grid-item-name">
-                <h3 class="contest__item-name">Городская именная стипендия одаренным детям
-                  по итогам 2021 - 2022 учебного года
-                  </h3>
-                <h4 class="contest__item-text">г. Нижний Новгород, 2022 г.</h4>
-              </div>
-            </a>
-            <a href="./achievements-news.html" class="contest__grid-item">
-              <div class="contest__grid-item-name">
-                <h3 class="contest__item-name">Городская выставка учебного рисунка учащихся детских художественных школ и художественных отделений детских школ искусств 
-                  города Нижнего Новгорода
-                  </h3>
-                <h4 class="contest__item-text">г. Нижний Новгород, 2022 г.</h4>
-              </div>
-            </a>
-        </div>
+        <p class="site-page_grey-long">Городская именная стипендия одаренным детям
+            по итогам 2021 - 2022 учебного года</p>
+        <h2 class="contest__sub">Городская именная стипендия одаренным детям
+            по итогам 2021 - 2022 учебного года</h2>
+            <div class="arh-news">
+                <div class="arh-news-item-1">
+                    <a href="./images/Layer 63.jpg" data-fancybox="gallery" data-caption="Дипломы">
+                        <img src="./images/Layer 63.jpg" alt="" class="arh-news-img" >
+                    </a>
+                    <a href="./images/Layer 64.jpg" data-fancybox="gallery" data-caption="Дипломы">
+                        <img src="./images/Layer 64.jpg" alt="" class="arh-news-img" >
+                    </a>
+                </div>
+                <div class="arh-news-item-2">
+                    <div class="contest__item-child">
+                        <p class="contest__item-child-step">СТИПЕНДИАНТ:</p><br>
+                        <p class="contest__item-child-stud">ШКАПЦОВА МАРИЯ</p>
+                        <p class="contest__item-child-teacher">преподаватель Павленко Ю.П.</p>
+                      </div>
+                </div>
+            </div>
       </div>
       </section>
   </main>
@@ -185,5 +161,6 @@
   </footer>
 </body>
 <script src="./index.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
 </html>

@@ -1,7 +1,14 @@
 .contest__grid-item{
+    background-color: #0f4f8f;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-decoration: none;
 }
+
+.contest__grid-item:hover {
+    background-color: #ff8400;
+    font-weight: bold;
+  }

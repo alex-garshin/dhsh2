@@ -37,7 +37,6 @@
   max-width: 100%;
   user-select: none;
   will-change: transform;
-  
 }
 
 /* кнопки влево и вправо */
@@ -61,8 +60,8 @@
 }
 
 @media (max-width: 1240px) {
-  .itc-slider-btn{
-    visibility:visible
+  .itc-slider-btn {
+    visibility: visible;
   }
 }
 
@@ -98,7 +97,6 @@
 .itc-slider-btn-prev::before {
   background-image: url("../images/button-slider-left.png");
   background-size: contain;
-  
 }
 
 .itc-slider-btn-next::before {

@@ -86,3 +86,9 @@
 @import url(../blocks/contest/__item-child-stud/contest__item-child-stud.css);
 @import url(../blocks/contest/__item-child-teacher/contest__item-child-teacher.css);
 @import url(../blocks/contest/__pic/contest__pic.css);
+
+/* arh-news */
+@import url(../blocks/arh-news/arh-news.css);
+@import url(../blocks/arh-news/item-1/arh-news-item-1.css);
+@import url(../blocks/arh-news/item-2/arh-news-item-2.css);
+@import url(../blocks/arh-news/img/arh-news-img.css);
